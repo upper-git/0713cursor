@@ -1,0 +1,37 @@
+body {
+    background: #f5f6fa;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/***** Bootstrap 기반 보조 스타일 *****/
+.todo-completed {
+    text-decoration: line-through;
+    color: #adb5bd !important;
+}
+.delete-btn {
+    background: none;
+    border: none;
+    color: #ff5c5c;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.2s;
+}
+.delete-btn:hover {
+    color: #d90429;
+}
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0.75rem 0.5rem;
+    font-size: 1.1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #f1f3f5;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+}
